@@ -400,8 +400,8 @@ importers:
         specifier: ^3.5.1
         version: 3.7.4(svelte@3.59.2)
       svelte-spa-router:
-        specifier: ^3.2.0
-        version: 3.3.0
+        specifier: ^4.0.1
+        version: 4.0.1
     devDependencies:
       '@babel/preset-env':
         specifier: ^7.16.0
@@ -554,8 +554,8 @@ importers:
         specifier: ^3.5.1
         version: 3.7.4(svelte@3.59.2)
       svelte-spa-router:
-        specifier: ^3.2.0
-        version: 3.3.0
+        specifier: ^4.0.1
+        version: 4.0.1
     devDependencies:
       '@babel/preset-env':
         specifier: ^7.16.0
@@ -6419,13 +6419,6 @@ packages:
   /@web3modal/siwe@3.5.3(typescript@5.3.3):
     resolution: {integrity: sha512-QMm/ypgkFXfNYOrBea9T55jvNI7LAfhKhK9G3xEIBsMDQiWKV5R++HP7kPPxD1UXs9y9bdWfCZ/sn3shQaYo2w==}
     requiresBuild: true
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@web3modal/core': 3.5.3(react@18.2.0)
       '@web3modal/scaffold-utils': 3.5.3(react@18.2.0)
@@ -6472,15 +6465,6 @@ packages:
     peerDependencies:
       '@wagmi/core': '>=1'
       viem: '>=1'
-    peerDependenciesMeta:
-      '@web3modal/siwe':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@wagmi/core': 1.4.13(react@18.2.0)(typescript@5.3.3)(viem@1.19.11)
       '@web3modal/polyfills': 3.5.3
@@ -14813,8 +14797,8 @@ packages:
       set-function-name: 2.0.1
     dev: true
 
-  /regexparam@2.0.1:
-    resolution: {integrity: sha512-zRgSaYemnNYxUv+/5SeoHI0eJIgTL/A2pUtXUPLHQxUldagouJ9p+K6IbIZ/JiQuCEv2E2B1O11SjVQy3aMCkw==}
+  /regexparam@2.0.2:
+    resolution: {integrity: sha512-A1PeDEYMrkLrfyOwv2jwihXbo9qxdGD3atBYQA9JJgreAx8/7rC6IUkWOw2NQlOxLp2wL0ifQbh1HuidDfYA6w==}
     engines: {node: '>=8'}
     dev: false
 
@@ -16188,10 +16172,10 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /svelte-spa-router@3.3.0:
-    resolution: {integrity: sha512-cwRNe7cxD43sCvSfEeaKiNZg3FCizGxeMcf7CPiWRP3jKXjEma3vxyyuDtPOam6nWbVxl9TNM3hlE/i87ZlqcQ==}
+  /svelte-spa-router@4.0.1:
+    resolution: {integrity: sha512-2JkmUQ2f9jRluijL58LtdQBIpynSbem2eBGp4zXdi7aDY1znbR6yjw0KsonD0aq2QLwf4Yx4tBJQjxIjgjXHKg==}
     dependencies:
-      regexparam: 2.0.1
+      regexparam: 2.0.2
     dev: false
 
   /svelte@3.59.2:

@@ -102,8 +102,8 @@ importers:
         specifier: ^8.10.0
         version: 8.10.0(eslint@8.55.0)
       eslint-plugin-simple-import-sort:
-        specifier: ^10.0.0
-        version: 10.0.0(eslint@8.55.0)
+        specifier: ^12.0.0
+        version: 12.0.0(eslint@8.55.0)
       eslint-plugin-svelte:
         specifier: ^2.35.0
         version: 2.35.1(eslint@8.55.0)(svelte@4.2.8)
@@ -6419,13 +6419,6 @@ packages:
   /@web3modal/siwe@3.5.3(typescript@5.3.3):
     resolution: {integrity: sha512-QMm/ypgkFXfNYOrBea9T55jvNI7LAfhKhK9G3xEIBsMDQiWKV5R++HP7kPPxD1UXs9y9bdWfCZ/sn3shQaYo2w==}
     requiresBuild: true
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@web3modal/core': 3.5.3(react@18.2.0)
       '@web3modal/scaffold-utils': 3.5.3(react@18.2.0)
@@ -6472,15 +6465,6 @@ packages:
     peerDependencies:
       '@wagmi/core': '>=1'
       viem: '>=1'
-    peerDependenciesMeta:
-      '@web3modal/siwe':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@wagmi/core': 1.4.13(react@18.2.0)(typescript@5.3.3)(viem@1.19.11)
       '@web3modal/polyfills': 3.5.3
@@ -9674,8 +9658,8 @@ packages:
       eslint: 8.55.0
     dev: true
 
-  /eslint-plugin-simple-import-sort@10.0.0(eslint@8.55.0):
-    resolution: {integrity: sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==}
+  /eslint-plugin-simple-import-sort@12.0.0(eslint@8.55.0):
+    resolution: {integrity: sha512-8o0dVEdAkYap0Cn5kNeklaKcT1nUsa3LITWEuFk3nJifOoD+5JQGoyDUW2W/iPWwBsNBJpyJS9y4je/BgxLcyQ==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:

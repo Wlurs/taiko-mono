@@ -425,8 +425,8 @@ importers:
         specifier: ^2.14.3
         version: 2.14.8
       '@types/sanitize-html':
-        specifier: ^2.6.2
-        version: 2.9.5
+        specifier: ^2.11.0
+        version: 2.11.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.6.0
         version: 6.13.2(@typescript-eslint/parser@5.62.0)(eslint@8.55.0)(typescript@4.9.5)
@@ -579,8 +579,8 @@ importers:
         specifier: ^2.14.3
         version: 2.14.8
       '@types/sanitize-html':
-        specifier: ^2.6.2
-        version: 2.9.5
+        specifier: ^2.11.0
+        version: 2.11.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.6.0
         version: 6.13.2(@typescript-eslint/parser@5.62.0)(eslint@8.55.0)(typescript@4.9.5)
@@ -4774,8 +4774,8 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
-  /@types/sanitize-html@2.9.5:
-    resolution: {integrity: sha512-2Sr1vd8Dw+ypsg/oDDfZ57OMSG2Befs+l2CMyCC5bVSK3CpE7lTB2aNlbbWzazgVA+Qqfuholwom6x/mWd1qmw==}
+  /@types/sanitize-html@2.11.0:
+    resolution: {integrity: sha512-7oxPGNQHXLHE48r/r/qjn7q0hlrs3kL7oZnGj0Wf/h9tj/6ibFyRkNbsDxaBBZ4XUZ0Dx5LGCyDJ04ytSofacQ==}
     dependencies:
       htmlparser2: 8.0.2
     dev: true
@@ -6419,13 +6419,6 @@ packages:
   /@web3modal/siwe@3.5.3(typescript@5.3.3):
     resolution: {integrity: sha512-QMm/ypgkFXfNYOrBea9T55jvNI7LAfhKhK9G3xEIBsMDQiWKV5R++HP7kPPxD1UXs9y9bdWfCZ/sn3shQaYo2w==}
     requiresBuild: true
-    peerDependenciesMeta:
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@web3modal/core': 3.5.3(react@18.2.0)
       '@web3modal/scaffold-utils': 3.5.3(react@18.2.0)
@@ -6472,15 +6465,6 @@ packages:
     peerDependencies:
       '@wagmi/core': '>=1'
       viem: '>=1'
-    peerDependenciesMeta:
-      '@web3modal/siwe':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      vue:
-        optional: true
     dependencies:
       '@wagmi/core': 1.4.13(react@18.2.0)(typescript@5.3.3)(viem@1.19.11)
       '@web3modal/polyfills': 3.5.3
